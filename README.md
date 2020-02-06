@@ -6,5 +6,5 @@ This metric is built using [DepecheMood Lexicon](https://github.com/marcoguerini
 
 Staiano, J., & Guerini, M. (2014). "DepecheMood: a Lexicon for Emotion Analysis from Crowd-Annotated News". Proceedings of ACL-2014. Paper available at http://www.anthology.aclweb.org/P/P14/P14-2070.pdf
 
-Other than the code partly provided by the authors in their [github](https://github.com/marcoguerini/DepecheMood), this code includes simple text processing of removing punctuations, special characters, and tokenizing.
+Other than the code partly provided by the authors in their [github](https://github.com/marcoguerini/DepecheMood), this code includes simple text preprocessing of removing punctuations, special characters, and tokenizing.
 

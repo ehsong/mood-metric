@@ -2,7 +2,7 @@
 
 Building a mood metric using DepecheMood lexicon.
 
-This metric is built using [DepecheMood Lexicon](https://github.com/marcoguerini/DepecheMood) which can retrieve scores for 8 ranges of mood - afraid, amused, angry, annoyed, don't care, happy, inspired, and sad. For more information on the construction of the lexicon please see the paper:
+This metric is built using [DepecheMood Lexicon](https://github.com/marcoguerini/DepecheMood) which can retrieve scores for 8 ranges of mood - afraid, amused, angry, annoyed, don't care, happy, inspired, and sad for approximately 37K terms. For more information on the construction of the lexicon please see the paper:
 
 Staiano, J., & Guerini, M. (2014). "DepecheMood: a Lexicon for Emotion Analysis from Crowd-Annotated News". Proceedings of ACL-2014. Paper available at http://www.anthology.aclweb.org/P/P14/P14-2070.pdf
 

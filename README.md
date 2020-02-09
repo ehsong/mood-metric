@@ -8,3 +8,10 @@ Other than the code partly provided by the authors in their [github](https://git
 
 For more detailed background about the project, please see my [medium post](https://medium.com/@esther.e.song/mood-metric-detecting-mood-at-workplace-using-lexicon-based-approach-8a2b2bbba74).
 
+### Example
+
+Excerpt from Pride and Prejudice:
+
+"When she remembered the style of his address, she was still full of indignation; but when she considered how unjustly she had condemned and upbraided him, her anger was turned against herself; and his disappointed feelings became the object of compassion."
+
+![mood metric](link-to-image)

@@ -14,7 +14,7 @@ Excerpt from Pride and Prejudice:
 
 "When she remembered the style of his address, she was still full of indignation; but when she considered how unjustly she had condemned and upbraided him, her anger was turned against herself; and his disappointed feelings became the object of compassion."
 
-![mood metric](link-to-image)
+![mood metric](/pride_and_prejudice.png)
 
 ### Notes
 

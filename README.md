@@ -10,7 +10,7 @@ For more detailed background about the project, please see my [medium post](http
 
 ### Example
 
-Excerpt from Pride and Prejudice:
+Excerpt from Jane Austen's *Pride and Prejudice*
 
 "When she remembered the style of his address, she was still full of indignation; but when she considered how unjustly she had condemned and upbraided him, her anger was turned against herself; and his disappointed feelings became the object of compassion."
 

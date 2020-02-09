@@ -18,7 +18,7 @@ Excerpt from Pride and Prejudice:
 
 ### Notes
 
-To run the .py file please run the following command in terminal:
+To run the .py file please run the following command in terminal:  
 ```pip3 install seaborn```  
 ```pip3 install spacy```  
 ```python3.8 -m spacy download en_core_web_lg```  

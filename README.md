@@ -6,7 +6,7 @@ Staiano, J., & Guerini, M. (2014). "DepecheMood: a Lexicon for Emotion Analysis 
 
 Other than the code partly provided by the authors in their [github](https://github.com/marcoguerini/DepecheMood), this code includes simple text preprocessing of removing punctuations, stop words, special characters, and tokenizing.
 
-For more detailed background about the project, please see my [medium post](https://medium.com/@esther.e.song/mood-metric-detecting-mood-at-workplace-using-lexicon-based-approach-8a2b2bbba74).
+For more detailed background about the project, please see my medium post ["Mood Metric: Detecting Mood at the Workplace Using Lexicon-Based Approach"](https://medium.com/@esther.e.song/mood-metric-detecting-mood-at-workplace-using-lexicon-based-approach-8a2b2bbba74).
 
 ### Example
 

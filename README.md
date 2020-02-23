@@ -22,3 +22,8 @@ To run the .py file please run the following command in terminal:
 ```pip3 install seaborn```  
 ```pip3 install spacy```  
 ```python3.8 -m spacy download en_core_web_lg```  
+
+
+### Comparing Performance Against NRC
+
+For this project, I compared the performance of DepecheMood with [NRC Lexicon](https://saifmohammad.com/WebPages/NRC-Emotion-Lexicon.htm) which includes 14K unigrams for 8 ranges of emotions. The performance of the two lexicons were tested on [ISEAR data set](https://www.unige.ch/cisa/research/materials-and-online-research/research-material/) which includes 7K self-written sentences for 7 emotion categories. The notebook is [here](https://github.com/ehsong/mood-metric/blob/master/nrc_dm_comparison.ipynb). For this work I used [ISEAR Loader](https://github.com/sinmaniphel/py_isear_dataset) which is a tool that helps loading ISEAR data.

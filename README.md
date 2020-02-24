@@ -18,7 +18,7 @@ Excerpt from Jane Austen's *Pride and Prejudice*
 
 ### Applying Mood Metric on Slack Conversation Data
 
-The metric was applied to an actual slack conversation data, which consisted around 5K messages. For the detailed preprocessing and application of the metric, please see the notebook [here](https://github.com/ehsong/mood-metric/blob/master/mood_classification_notebook.ipynb). The notebook also includes where I played around the threshold for classifying 'unclassified' mesages, depending on the normalized score I obtained for each message. The baseline was 3%, which refers to the percentage of the messages that could not be classified due to words that did not match with the messages.
+The metric was applied to an actual slack conversation data, which consisted around 5K messages. For the detailed preprocessing and application of the metric, please see the notebook [here](https://github.com/ehsong/mood-metric/blob/master/mood_classification_notebook.ipynb). In this notebook, I played around the threshold for classifying 'unclassified' mesages, depending on the normalized score I obtained for each message. The baseline was 3%, which refers to the percentage of the messages that could not be classified due to words that did not match with the messages.
 
 ### Comparing Performance Against NRC
 
@@ -29,4 +29,4 @@ For this project, I compared the performance of DepecheMood with [NRC Lexicon](h
 To run the .py file please run the following command in terminal:  
 ```pip3 install seaborn```  
 ```pip3 install spacy```  
-```python3.8 -m spacy download en_core_web_lg``
+```python3.8 -m spacy download en_core_web_lg```

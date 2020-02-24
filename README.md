@@ -16,14 +16,17 @@ Excerpt from Jane Austen's *Pride and Prejudice*
 
 ![mood metric](/pride_and_prejudice.png)
 
+### Applying Mood Metric on Slack Conversation Data
+
+The metric was applied to an actual slack conversation data, which consisted around 5K messages. For the detailed preprocessing and application of the metric, please see the notebook [here](https://github.com/ehsong/mood-metric/blob/master/mood_classification_notebook.ipynb). The notebook also includes where I played around the threshold for classifying 'unclassified' mesages, depending on the normalized score I obtained for each message. The baseline was 3%, which refers to the percentage of the messages that could not be classified due to words that did not match with the messages.
+
+### Comparing Performance Against NRC
+
+For this project, I compared the performance of DepecheMood with [NRC Lexicon](https://saifmohammad.com/WebPages/NRC-Emotion-Lexicon.htm) which includes 14K unigrams for 8 ranges of emotions. The performance of the two lexicons were tested on [ISEAR data set](https://www.unige.ch/cisa/research/materials-and-online-research/research-material/) which includes 7K self-written sentences for 7 emotion categories. The notebook is [here](https://github.com/ehsong/mood-metric/blob/master/nrc_dm_comparison.ipynb). For this work I used [ISEAR Loader](https://github.com/sinmaniphel/py_isear_dataset) which is a tool that helps loading ISEAR data in python.
+
 ### Notes
 
 To run the .py file please run the following command in terminal:  
 ```pip3 install seaborn```  
 ```pip3 install spacy```  
-```python3.8 -m spacy download en_core_web_lg```  
-
-
-### Comparing Performance Against NRC
-
-For this project, I compared the performance of DepecheMood with [NRC Lexicon](https://saifmohammad.com/WebPages/NRC-Emotion-Lexicon.htm) which includes 14K unigrams for 8 ranges of emotions. The performance of the two lexicons were tested on [ISEAR data set](https://www.unige.ch/cisa/research/materials-and-online-research/research-material/) which includes 7K self-written sentences for 7 emotion categories. The notebook is [here](https://github.com/ehsong/mood-metric/blob/master/nrc_dm_comparison.ipynb). For this work I used [ISEAR Loader](https://github.com/sinmaniphel/py_isear_dataset) which is a tool that helps loading ISEAR data in python.
+```python3.8 -m spacy download en_core_web_lg``

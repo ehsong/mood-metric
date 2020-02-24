@@ -73,10 +73,4 @@ def mood_metric_scores(dm,text):
     q = k/k.sum(axis=0,keepdims=1) # message-level emo-score;
     # get the classified emotion
     p = list(q)
-    emo_name = []
-    for col in dm.columns:
-        emo_name.append(col)
-    # get the pos
-    m = max(p)
-    pos = p.index(m)
-    return emo_name[pos], p
+    return p
